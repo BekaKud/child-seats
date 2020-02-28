@@ -1,0 +1,34 @@
+.statistic {
+  .container {
+    position: relative;
+    margin: 25px auto 50px auto;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      height: 95px;
+    }
+  }
+}
+
+.h2 {
+  margin-top: 25px;
+  color: #68b0c9;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+  p {
+    margin-top: 15px;
+    color: #535353;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+h2:first-child{
+  margin-left: 7px;
+}

@@ -1,0 +1,42 @@
+.proof-3{
+  .container{
+    .heading{
+      margin-left: 45px;
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      .empty{
+        width: 60px;
+      }
+      h2{
+        text-align: right;
+        color: #535353;
+        font-size: 22px;
+        font-weight: 700;
+        &:nth-last-child(1){
+          text-align: left;
+          color: #68b0c9;
+        }
+      }
+    }
+    img{
+      margin-top: 35px;
+    }
+    .description{
+      display: flex;
+      justify-content: space-between;
+      .block{
+        margin-top: 35px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #939393;
+        text-align: right;
+        &:nth-last-child(1){
+          color: #68b0c9;
+          text-align: left;
+
+        }
+      }
+    }
+  }
+}

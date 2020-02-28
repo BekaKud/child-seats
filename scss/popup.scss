@@ -1,0 +1,120 @@
+.bg-popup-1 {
+  background-color: rgba(42, 103, 128, 0.53);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+
+  .close {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 270px;
+    margin-top: 10%;
+
+    img {
+      margin: 0 10px 10px;
+    }
+
+    .popup {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 300px;
+      height: 240px;
+      border-radius: 20px;
+
+      h3 {
+        color: #5892a6;
+        font-size: 20px;
+        margin-top: 35px;
+      }
+
+      p {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      input {
+        outline: 0;
+      }
+
+      .tel {
+        width: 220px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid #e8e8e8;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      .submit {
+        width: 220px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #68b0c9;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        border: 0;
+
+        &:hover {
+          background-color: #267a98;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}
+
+.bg-popup-2 {
+  background-color: rgba(42, 103, 128, 0.53);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+
+  .close {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 140px;
+    margin-top: 10%;
+
+    img {
+      margin: 0 10px 10px;
+    }
+
+    .thank {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 300px;
+      height: 240px;
+      border-radius: 20px;
+
+      h3 {
+        color: #5892a6;
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 12px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

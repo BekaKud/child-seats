@@ -1,0 +1,38 @@
+.map{
+  background-color: #ecf3f8;
+  border: 1px solid #ecf3f8;
+  .container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .block{
+      margin-top: 30px;
+      text-align: center;
+      p{
+        font-size: 16px;
+      }
+      h3{
+        color: #68b0c9;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .button{
+        width: 260px;
+        height: 45px;
+        background-color: #68b0c9;
+        color: #fff;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        cursor: pointer;
+        &:hover {
+          background-color: #267a98;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}

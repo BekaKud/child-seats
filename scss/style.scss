@@ -1,0 +1,42 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+input{
+  cursor: pointer;
+}
+body{
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
+  min-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.container{
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+@media (max-width:990px){
+  .container{
+    max-width: 880px;
+  }
+}
+@media (max-width:800px){
+  .container{
+    max-width: none;
+  }
+}
+@import "fonts";
+@import "header";
+@import "face";
+@import "proof-1";
+@import "certificate";
+@import "discount-1";
+@import "statistic";
+@import "proof-2";
+@import "discount-2";
+@import "proof-3";
+@import "map";
+@import "footer";
+@import "popup";

@@ -1,0 +1,111 @@
+.discount-1 {
+  background: url("../img/bg-2.png") center no-repeat;
+  .container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    .re-arrow {
+      position: absolute;
+      top: 350px;
+    }
+
+    .price {
+      background-color: #fff;
+      margin-top: 190px;
+      margin-left: 245px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h3 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #d04545;
+      }
+
+      p {
+        text-decoration: line-through;
+        font-size: 18px;
+      }
+    }
+
+    .discount {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+      h2 {
+        font-size: 55px;
+        color: #535353;
+        font-weight: 900;
+      }
+
+      h3 {
+        font-size: 25px;
+        color: #535353;
+        font-weight: 700;
+      }
+
+      .p-1 {
+        &:before {
+          content: url("../img/icon-2.png");
+        }
+        font-size: 25px;
+        color: #68b0c9;
+        margin-bottom: 50px;
+      }
+
+      .block {
+        .block-1 {
+          margin: 30px;
+          img{
+            height: 45px;
+          }
+          display: flex;
+          justify-content: space-around;
+        }
+        .p-2 {
+          height: 30px;
+        }
+
+        p {
+          margin-top: 15px;
+          display: inline-block;
+          color: #f53535;
+          font-size: 14px;
+          font-weight: 700;
+        }
+        margin-left: 10px;
+        width: 280px;
+        height: 200px;
+        border: 5px solid #fff;
+        border-radius: 25px;
+
+
+      }
+      .button{
+        display: block;
+        height: 50px;
+        width: 200px;
+        border-radius: 25px;
+        background-color: #68b0c9;
+        margin-left: 40px;
+        cursor: pointer;
+        p{
+          font-size: 16px;
+          font-weight: 700;
+          color: #fff;
+        }
+        &:hover{
+          background-color: #267a98;
+          transition: .2s;
+        }
+      }
+    }
+  }
+}

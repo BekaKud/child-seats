@@ -1,0 +1,35 @@
+.proof-2{
+  height: 550px;
+  background: url(../img/bg-3.png) center no-repeat;
+  .container{
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    .block{
+      display: flex;
+      flex-direction: column;
+      .mini-block-1{
+        margin-bottom: 120px;
+        margin-top: 130px;
+      }
+      .right{
+        text-align: left;
+      }
+      .one{
+        margin-top: -50px;
+      }
+      .left{
+        text-align: right;
+      }
+    }
+    .block-1{
+      margin-left: 20px;
+    }
+    .block-2{
+      margin-right: 20px;
+    }
+    h3{
+      color: #68b0c9;
+    }
+  }
+}

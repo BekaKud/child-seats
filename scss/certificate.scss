@@ -1,0 +1,43 @@
+.certificate {
+  background-color: #ecf3f8;
+  border-top: 0.1px solid #ecf3f8;
+  border-bottom: 0.1px solid #ecf3f8;
+  margin-bottom: 90px;
+  .certificate-1{
+    height: 300px;
+  }
+  .container {
+    h2 {
+      margin-bottom: 90px;
+      margin-top: 80px;
+      text-align: center;
+      color: #535353;
+      font-weight: 700;
+      font-size: 35px;
+    }
+
+    h3 {
+      color: #68b0c9;
+      font-weight: 700;
+      font-size: 22px;
+    }
+
+    .icon {
+      display: flex;
+    }
+
+    .tag {
+      margin: 5px 10px 0 0;
+      width: 50px;
+      height: 45px;
+    }
+    p{
+      color: #323232;
+      font-size: 18px;
+    }
+    .content {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
