@@ -9,7 +9,6 @@
   justify-content: center;
 
   .close {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -29,7 +28,6 @@
       width: 300px;
       height: 240px;
       border-radius: 20px;
-
       h3 {
         color: #5892a6;
         font-size: 20px;
@@ -63,7 +61,6 @@
         color: #fff;
         font-size: 14px;
         font-weight: 700;
-        border: 0;
 
         &:hover {
           background-color: #267a98;
